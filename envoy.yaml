@@ -49,7 +49,7 @@ static_resources:
             - endpoint:
                 address:
                   socket_address:
-                    address: YOUR_GRPC_APP_URL.a.run.app
+                    address: https://gprc-b5dccr7dtq-uc.a.run.app
                     port_value: 443
     dns_lookup_family: V4_ONLY
     transport_socket:
@@ -61,4 +61,4 @@ static_resources:
           validation_context:
             trusted_ca:
               filename: /etc/ssl/certs/ca-certificates.crt
-        sni: YOUR_GRPC_APP_URL.a.run.app
+        sni: https://gprc-b5dccr7dtq-uc.a.run.app
